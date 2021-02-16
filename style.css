@@ -1,0 +1,1316 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+button:focus {
+    outline: none;
+}
+.swiper-container {
+    display: flex;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+}
+
+.block_header {
+    background: rgba(0, 91, 193, 0.6);
+    height: 80px;
+    display: flex;
+    width: 100%;
+}
+
+.container_header {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container__header {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.logo_svg {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 11px;
+}
+
+.burger_menu {
+    background-color: Transparent;
+    border: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    right: 5%;
+}
+
+.mnu_top {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.li_first {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+.li {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 0.875em;
+    padding-left: 26px;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.left_container {
+    width: 40%;
+    background: rgba(0, 91, 193, 0.6);
+    height: calc(800px - 80px);
+}
+
+.first_screen__content {
+    width: 56%;
+    position: absolute;
+    margin-left: 190px;
+}
+
+.h1 {
+    font-size: 3em;
+    color: white;
+    font-family: "Oswald";
+    font-weight: 400;
+}
+
+.work {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+    margin-top: 40px;
+}
+
+.workp {
+    margin-top: 0;
+}
+
+.go_over {
+    padding: 15px 40px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1em;
+    background-color: Transparent;
+    color: white;
+    border: 2px solid #FFFFFF;
+    margin-top: 40px;
+}
+
+.intention {
+    margin-top: 155px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_projects {
+    display: flex;
+
+}
+
+.h2 {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 1.875em;
+    padding-left: 40px;
+    letter-spacing: .05em;
+    color: #343434;
+}
+
+.slider_menu {
+    display: flex;
+    justify-content: right;
+}
+
+.olympus {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.rectangle1 {
+    width: 49%;
+    position: relative;
+}
+
+.text_project1 {
+    background-color: white;
+    padding: 20px 25px;
+    width: 250px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+}
+
+.p1 {
+    font-size: 0.875em;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.olimp {
+    font-size: 1.125em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Oswald";
+    font-weight: 400;
+    color: #343434;
+}
+
+.rectangle2 {
+    width: 49%;
+    position: relative;
+}
+
+.catalog {
+    margin-top: 150px;
+}
+
+.production {
+    display: flex;
+}
+
+.apparel {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.a_ {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: .05em;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.a_:visited {
+    color: #343434;
+
+}
+
+.a_:hover {
+    color: #005BC1;
+    border-bottom-color: #005BC1;
+}
+
+.compulite {
+    margin-left: 47px;
+}
+
+.productions {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__ {
+    margin: 0 30px 0 30px;
+
+}
+
+.h4 {
+    font-family: "Oswald";
+    font-size: 1.125em;
+    font-weight: 400;
+    letter-spacing: .05em;
+    color: white;
+}
+
+.product_,
+.product__,
+.product___ {
+    position: relative;
+}
+
+.product_content,
+.product__content,
+.product___content {
+    position: absolute;
+    background-color: #005BC1;
+    bottom: 20px;
+    right: 0px;
+    width: 265px;
+    height: 86px;
+}
+
+.product_content {
+    padding: 15px 0 0 21px;
+}
+
+.product__content,
+.product___content {
+    padding: 30px 0 0 21px;
+}
+
+.rent {
+    margin-top: 150px;
+}
+
+.equipment {
+    display: flex;
+}
+
+.rent_ {
+    display: flex;
+    margin-top: 40px;
+}
+
+.hire {
+    flex: 0 0 40%;
+    padding: 0 95px 0 0;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 1.125em;
+    color: #343434;
+    line-height: 24.5px;
+}
+
+.rent_item {
+    border: 3px solid #005bc1;
+    padding: 30px 20px 30px 30px;
+    flex: 0 0 60%;
+}
+
+.new_equipment {
+    margin-bottom: 55px;
+    margin-top: 12px;
+}
+
+.slide_text {
+    display: flex;
+}
+
+.robe_text {
+    padding-left: 30px;
+    flex: 0 0 61%;
+}
+
+.robe_item {
+    padding-left: 0;
+    margin: 0;
+}
+
+.new_equipment,
+.robe_robin {
+    font-family: "Oswald";
+    font-weight: 400;
+    letter-spacing: .05em;
+    color: #343434;
+}
+
+.robe_robin {
+    font-size: 1em;
+    line-height: 23.71px;
+    margin-bottom: 30px;
+}
+
+.new_equipment {
+    font-size: 1.125em;
+    line-height: 26.7px;
+}
+
+.robe_item_list {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 0.875em;
+    line-height: 19px;
+    color: #343434;
+    margin-bottom: 15px;
+}
+
+.news {
+    margin-top: 108px;
+}
+
+.news_ {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 77px;
+}
+
+.news__ {
+    display: flex;
+}
+
+.all_news {
+    font-family: "Open Sans";
+    font-weight: 600;
+    line-height: 21.79px;
+    letter-spacing: .05em;
+    color: white;
+    padding: 15px 34px 15px 34px;
+    background-color: #005BC1;
+    text-decoration: none;
+}
+
+.news_main {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 120px;
+}
+
+.seminar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.seminar_milos,
+.exhibition_2016,
+.seminar_robe {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 26.68px;
+    letter-spacing: .05em;
+    color: #343434;
+}
+
+.date_milos,
+.date_exhibition,
+.date_robe {
+    font-family: "Open Sans";
+    font-size: 0.875em;
+    color: #979797;
+    font-weight: 600;
+}
+
+.content_milos,
+.content_exhibition,
+.content_robe {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 0.875em;
+    line-height: 19px;
+    color: #343434;
+    margin-bottom: 21px;
+}
+
+.typography {
+    font-family: "Open Sans";
+    color: #343434;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 19px;
+}
+
+.exhibition_2016,
+.content_exhibition,
+.seminar_robe,
+.content_robe {
+    margin-bottom: 20px;
+}
+
+.content__exhibition,
+.content__robe {
+    display: flex;
+    align-items: flex-end;
+}
+
+.pobeda {
+
+    display: flex;
+    flex: 0 0 48.648%
+}
+
+.king {
+    display: flex;
+}
+
+.milos {
+    flex: 0 0 47.22%;
+    margin-left: 30px;
+}
+
+.exhibition {
+    flex: 0 0 39.47%;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.date_exhibition,
+.date_robe {
+    margin-left: 25px;
+}
+
+.footer {
+    background-color: #005BC1;
+}
+
+.footer_container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.footer_top_menu {
+    padding: 40px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.phone_number {
+    font-family: "Oswald";
+    font-weight: 400;
+    line-height: 26, 68px;
+    letter-spacing: .05em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.125em;
+}
+
+.address,
+.email {
+    font-family: "Open Sans";
+    font-size: 0.875em;
+    text-decoration: none;
+    color: white;
+    line-height: 19px;
+    font-weight: 600;
+}
+
+.footer_middle_menu {
+    display: flex;
+    width: 50%;
+    padding: 25px 0 25px 0;
+    justify-content: space-between;
+}
+
+.p_small {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.connection {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 0.875em;
+    line-height: 19px;
+}
+
+.connection_ {
+    margin-top: 10px;
+}
+
+.footer_bottom_menu {
+    border-top: 1px solid #FFFFFF;
+    padding: 25px 0 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.protection {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 0.875em;
+    line-height: 19px;
+    color: white;
+}
+
+.block_header .show_menu {
+    display: block;
+    position: absolute;
+    background: rgba(0, 91, 193, 0.6);
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 40px 20px 20px 40px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width: 1199px) {
+    .header {
+        height: 600px;
+    }
+
+
+    .left_container {
+        height: calc(600px - 80px);
+    }
+
+    .container,
+    .container__header,
+    .container_header,
+    .footer_container {
+        width: 960px;
+    }
+
+    .first_screen__content {
+        margin-left: 165px;
+        width: 70%;
+    }
+
+    .intention,
+    .catalog,
+    .rent {
+        margin-top: 120px;
+    }
+
+    .olympus,
+    .apparel {
+        margin-top: 50px;
+    }
+
+    .h1 {
+        font-size: 2.6em;
+    }
+
+    .product_content,
+    .product__content,
+    .product___content {
+        right: 0px;
+
+    }
+
+    .productions {
+        margin-top: 40px;
+    }
+
+    .compulite {
+        margin-left: 35px;
+    }
+
+    .hire {
+        padding: 0 55px 0 0;
+    }
+
+    .news {
+        margin-top: 80px;
+    }
+
+    .news_ {
+        margin-bottom: 60px;
+    }
+
+    .milos {
+        margin-left: 20px;
+    }
+
+    .exhibition {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .news_main {
+        margin-bottom: 90px;
+    }
+
+    .seminar {
+        margin-bottom: 20px;
+    }
+
+    .content_milos {
+        margin-bottom: 10px;
+    }
+
+    .exhibition_2016,
+    .content_exhibition,
+    .seminar_robe {
+        margin-bottom: 10px;
+    }
+
+    .content_robe {
+        margin-bottom: 17px;
+    }
+
+    .footer_top_menu,
+    .footer_middle_menu,
+    .footer_bottom_menu {
+        padding-top: 20px;
+    }
+
+    .footer_top_menu {
+        padding-bottom: 15px;
+    }
+
+    .footer_middle_menu,
+    .footer_bottom_menu {
+        padding-bottom: 20px;
+    }
+
+    .date_exhibition,
+    .date_robe {
+        margin-left: 2px;
+    }
+
+    @media screen and (max-width: 991px) {
+        .header {
+            height: 500px;
+        }
+
+        .left_container {
+            height: calc(500px - 80px);
+        }
+
+        .intention,
+        .catalog,
+        .rent {
+            margin-top: 60px;
+        }
+
+        .news {
+            margin-top: 45px;
+        }
+
+        .news_ {
+            margin-bottom: 40px;
+        }
+
+        .news_main {
+            margin-bottom: 50px;
+        }
+
+        .olympus {
+            margin-top: 30px;
+        }
+
+        .container,
+        .container_header,
+        .container__header,
+        .footer_container {
+            width: 720px;
+        }
+
+        .logo_svg {
+            margin-left: 25px;
+            width: 90px;
+            margin-top: 20px;
+        }
+
+        .li,
+        .li_first,
+        .p1 {
+            font-size: 0.75em;
+        }
+
+        .h1 {
+            font-size: 2em;
+        }
+
+        .work,
+        .go_over {
+            font-size: 0.875em;
+
+        }
+
+        .go_over {
+            padding: 10px 26px;
+        }
+
+        .first_screen__content {
+            margin-left: 120px;
+        }
+
+        .h2 {
+            padding-left: 20px;
+            font-size: 1.375em;
+        }
+
+
+        .slider {
+            width: 45px
+        }
+
+
+        .olimp {
+            font-size: 1em;
+        }
+
+        .a_ {
+            font-size: 1.125em;
+        }
+
+        .h4 {
+            font-size: 0.875em;
+        }
+
+        .product_content,
+        .product__content,
+        .product___content {
+            height: 60px;
+            width: 200px;
+            right: 0px;
+            bottom: 15px;
+        }
+
+        .product_content {
+            padding: 10px 0 0 10px;
+        }
+
+        .product__content,
+        .product___content {
+            padding: 20px 0 0 10px;
+        }
+
+        .hire {
+            font-size: 0.875em;
+            padding-right: 30px;
+            line-height: 20px;
+        }
+
+        .new_equipment {
+            font-size: 1em;
+            margin-top: 8px;
+            margin-bottom: 35px;
+            line-height: 20px;
+        }
+
+        .robe_text {
+            padding-left: 15px;
+        }
+
+        .robe_robin {
+            font-size: 0.875em;
+            margin-bottom: 20px;
+            line-height: 20px;
+        }
+
+        .robe_item_list {
+            font-size: 0.688em;
+            margin-bottom: 10px;
+        }
+
+        .rent_item {
+            padding: 30px 10px 18px 18px;
+        }
+
+        .all_news {
+            padding: 10px 22px 10px 22px;
+            font-size: 0.875em;
+        }
+
+        .milos {
+            margin-left: 10px;
+        }
+
+        .seminar {
+            margin-bottom: 10px;
+        }
+
+        .seminar_milos,
+        .exhibition_2016,
+        .seminar_robe {
+            font-size: 0.875em;
+            line-height: normal;
+        }
+
+        .date_milos,
+        .content_milos,
+        .date_exhibition,
+        .date_robe,
+        .content_exhibition,
+        .content_robe {
+            font-size: 0.625em;
+            line-height: normal
+        }
+
+        .typography {
+            font-size: 0.625em;
+            line-height: normal
+        }
+
+        .content__robe,
+        .content__exhibition {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .date_robe,
+        .date_exhibition {
+            margin-left: 0;
+        }
+
+        .phone_number,
+        .address,
+        .email,
+        .footer_middle_menu,
+        .connection,
+        .protection,
+        .connection_ {
+            line-height: normal;
+        }
+
+        .phone_number {
+            font-size: 0.875em;
+        }
+
+        .address,
+        .email {
+            font-size: 0.688em;
+        }
+
+        .footer_middle_menu {
+            padding: 14px 0 14px 0;
+        }
+
+        .connection,
+        .protection {
+            font-size: 0.688em;
+        }
+
+        .connection_ {
+            margin-top: 5px;
+        }
+
+        .ret {
+            width: 100%;
+        }
+
+
+
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 0 15px;
+            }
+
+            .footer_container {
+                width: 100%;
+            }
+
+            .header {
+                height: 400px;
+            }
+
+            .block_header {
+                height: 60px;
+            }
+
+            .logo_svg {
+                margin-top: 11px;
+            }
+
+            .catalog,
+            .apparel,
+            .rent,
+            .rent_,
+            .news {
+                margin-top: 30px;
+            }
+
+            .news_,
+            .news_main {
+                margin-bottom: 30px;
+            }
+
+            .a_ {
+                font-size: 1em;
+            }
+
+            .left_container {
+                height: calc(400px - 60px);
+            }
+
+
+            .container__header {
+                width: 100%;
+            }
+
+            .mnu_top {
+                display: none;
+            }
+
+            .burger_menu {
+                display: block;
+            }
+
+            .li {
+                padding-left: 0;
+            }
+
+            .first_screen__content {
+                margin-left: 45px;
+            }
+
+            .h1 {
+                font-size: 1.625em;
+            }
+
+            .work,
+            .go_over {
+                margin-top: 20px;
+            }
+
+            .workp {
+                margin-top: 0;
+            }
+
+            .go_over {
+                font-size: 0.75em;
+            }
+
+            .intention {
+                margin-top: 20px;
+            }
+
+            .productions {
+                flex-wrap: wrap;
+            }
+
+            .product__ {
+                padding: 10px 0 10px 0;
+            }
+
+            .h4 {
+                font-size: 1.125em;
+            }
+
+            .product_,
+            .product__,
+            .product___ {
+                margin: 0 auto;
+            }
+
+
+            .olympus {
+                margin-top: 15px;
+                flex-wrap: wrap;
+            }
+
+            .rectangle1 {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            .rectangle2 {
+                width: 100%;
+            }
+
+            .h2 {
+                font-size: 1.25em;
+            }
+
+            .slider {
+                width: 40px
+            }
+
+            .decor {
+                width: 70px;
+            }
+
+            .product_content,
+            .product__content,
+            .product___content {
+                height: 90px;
+                width: 280px;
+            }
+
+            .product_content,
+            .product___content {
+                bottom: 30px;
+            }
+
+            .product__content {
+                bottom: 40px;
+            }
+
+            .product_content {
+                padding: 18px 0 0 10px;
+            }
+
+            .product__content,
+            .product___content {
+                padding: 30px 0 0 10px;
+            }
+
+            .rent_ {
+                flex-direction: column;
+            }
+
+            .hire {
+                margin: 0 40px 30px 40px;
+                padding: 0;
+            }
+
+            .new_equipment {
+                font-size: 1.125em;
+            }
+
+            .robe_robin {
+                font-size: 1em;
+            }
+
+            .robe_item_list {
+                font-size: 0.875em;
+            }
+
+            .all_news {
+                font-size: 0.75em;
+            }
+
+            .news_main {
+                flex-direction: column;
+            }
+
+            .pobeda {
+                align-items: flex-start;
+            }
+
+
+
+            .king,
+            .exhibition,
+            .robe {
+                width: 100%;
+            }
+
+            .exhibition {
+                flex: 0 0 49%;
+                margin: 0;
+            }
+
+            .robe {
+                flex: 0 0 49%;
+            }
+
+            .ret {
+                width: 100%;
+            }
+
+            .seminar_robe {
+                display: flex;
+            }
+
+            .robe_p {
+                margin-right: 4px;
+            }
+
+            .content_robe {
+                margin-bottom: 10px;
+            }
+
+            .news_img {
+                flex: 0 0 49%;
+            }
+
+            .milos {
+                flex: 0 0 49%;
+                margin-left: 0;
+            }
+
+            .king,
+            .pobeda {
+                justify-content: space-between;
+            }
+
+            .footer_top_menu,
+            .footer_bottom_menu {
+
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .address,
+            .email,
+            .connection,
+            .protection {
+                font-size: 0.625em;
+            }
+
+            .phone_number {
+                font-size: 0.75em;
+            }
+
+        }
+
+        @media screen and (max-width: 624px) {
+            .seminar_robe {
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 616px) {
+            .content_exhibition {
+                height: 28px;
+            }
+        }
+
+        @media screen and (max-width: 575px) {
+            .h2 {
+                padding-left: 10px;
+            }
+
+            .apparel,
+            .productions {
+                margin-top: 15px;
+            }
+
+            .catalog,
+            .rent,
+            .rent_,
+            .news {
+                margin-top: 20px;
+            }
+
+            .hire {
+                margin: 0 40px 20px 40px;
+                font-size: 0.75em;
+            }
+
+            .news_,
+            .news_main {
+                margin-bottom: 20px;
+            }
+
+            .footer_middle_menu {
+                width: 100%;
+                padding: 14px 10px;
+            }
+
+            .new_equipment {
+                font-size: 1em;
+            }
+
+            .robe_robin {
+                font-size: 0.875em;
+            }
+
+            .robe_item_list {
+                font-size: 0.75em;
+            }
+
+        }
+
+        @media screen and (max-width: 381px) {
+
+            .work,
+            .go_over {
+                margin-top: 15px;
+            }
+
+            .workp {
+                margin-top: 0;
+            }
+
+            .text_project1 {
+                padding: 15px 20px;
+                width: 220px;
+                right: 10px;
+                bottom: 15px;
+            }
+
+            .product_content,
+            .product__content,
+            .product___content {
+                width: 250px;
+            }
+
+            .all_news {
+                font-size: 0.625em;
+            }
+
+            .slide_text {
+                flex-direction: column;
+            }
+
+            .rent_item {
+                padding: 30px 18px 18px 18px;
+            }
+
+            .new_equipment {
+                margin-bottom: 0;
+            }
+
+            .robe_robin {
+                margin-bottom: 0;
+            }
+
+            .pobeda,
+            .king {
+                flex-direction: column;
+            }
+
+            .milos {
+                margin: 15px 0 15px 0;
+            }
+
+            .content_exhibition {
+                height: 10px;
+            }
+
+            .robe {
+                margin-top: 15px;
+            }
+
+            .seminar_robe {
+                display: flex;
+            }
+        }
+
+        @media screen and (max-width: 327px) {
+            .h2 {
+                font-size: 1.125em;
+            }
+
+            .address {
+                font-size: 0.563em;
+            }
+        }
